@@ -1,0 +1,19 @@
+.pink {
+  background-color: rgb(255, 167, 167);
+  font-style: verdana, dejaVu Sans, sans-serif;
+}
+
+.big-pink {
+  font-size: 24px;
+}
+
+#second {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+#fourth {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: hsl(120, 100%, 75%);
+}
