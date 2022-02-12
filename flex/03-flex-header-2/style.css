@@ -18,10 +18,19 @@ body {
   padding: 8px;
 }
 
-.flex1 {
+.flex1,
+.flex2 {
   display: flex;
-  justify-content: left;
-  padding:0;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex1 {
+  margin-right:auto;
+}
+
+.flex2 {
+  margin-left:auto;
 }
 
 .profile-image {
@@ -51,6 +60,7 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
 }
 
 ul {
