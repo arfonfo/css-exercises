@@ -30,7 +30,7 @@ input {
 }
 
 .content {
-  flex: 1;
+  flex-grow: 1; /* Para igualar a este elemento con el resto de la página en relación 1:1 */
   display: flex;
   justify-content: center;
   align-items: center;
